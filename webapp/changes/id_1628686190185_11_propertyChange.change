@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1628686190185_11_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "products",
+    "packageName": "",
+    "content": {
+        "property": "useIconTabBar",
+        "newValue": true
+    },
+    "selector": {
+        "id": "products::sap.suite.ui.generic.template.ObjectPage.view.Details::Products--objectPage",
+        "idIsLocal": false,
+        "type": "sap.uxap.ObjectPageLayout"
+    },
+    "layer": "VENDOR",
+    "texts": {},
+    "namespace": "apps/products/changes/",
+    "projectId": "products",
+    "creation": 1628686190185,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "latest",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "1.0.0",
+        "to": "1.0.0",
+        "creation": "1.0.0"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

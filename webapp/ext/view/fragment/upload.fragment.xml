@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:u="sap.m.upload"
+   xmlns:core="sap.ui.core" >
+   <Dialog
+      id="helloDialog"
+      title="{i18n>FileUploadHeader}">
+      <VBox>
+        <items>
+            <Panel id="pnlUpload"> 
+                <u:UploadSet afterItemAdded=".onAddedItem"/>
+            </Panel>
+            <Panel id="pnlTable" visible="false">
+                <Table id="idTable"/>
+            </Panel>
+        </items>
+      </VBox>
+      <beginButton><Button text="{i18n>ButtonDialogAccept}" press=".onAccept" type="Accept"/></beginButton>
+      <endButton><Button text="{i18n>ButtonDialogClose}" press=".onClose" type="Reject"></Button></endButton>
+   </Dialog>
+</core:FragmentDefinition>
